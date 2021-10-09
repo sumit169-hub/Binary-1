@@ -1,0 +1,23 @@
+from prettytable import PrettyTable
+table=PrettyTable()
+print('Table for Conversion of Decimal numbers to Binary numbers')
+print('This table has only 1-15 numbers')
+table.field_names=['Decimal Numbers','Binary format']
+table.add_row(['0','0 0 0 0'])
+table.add_row(['1','0 0 0 1'])
+table.add_row(['2','0 0 1 0'])
+table.add_row(['3','0 0 1 1'])
+table.add_row(['4','0 1 0 0'])
+table.add_row(['5','0 1 0 1'])
+table.add_row(['6','0 1 1 0'])
+table.add_row(['7','0 1 1 1'])
+table.add_row(['8','1 0 0 0'])
+table.add_row(['9','1 0 0 1'])
+table.add_row(['10','1 0 1 0'])
+table.add_row(['11','1 0 1 1'])
+table.add_row(['12','1 1 0 0'])
+table.add_row(['13','1 1 0 1'])
+table.add_row(['14','1 1 1 0'])
+table.add_row(['15','1 1 1 1'])
+
+print(table)
