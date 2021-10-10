@@ -1,5 +1,5 @@
 # Binary-1
-Decimal to Binary for first 15 number
+
 To run program use program_D2B.py.
 To view table use D2table.py.
 
